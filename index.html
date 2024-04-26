@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Parts Store</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 20px;
+        }
+        .header {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .product {
+            margin-bottom: 20px;
+        }
+        .product-img {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        .exhaust { background-image: url(https://baanvelgen.com/cdn/shop/products/Akrapovic_Tail__Pipe_Set_bmw_g80_m3_g82_m4_1024x.jpg?v=1676032525);
+                    width: 250px;
+                    height:200px ; }
+        .rims { background-image: url(https://columbuscaraudio.com/wp-content/uploads/2019/12/Untitled-1.jpg);
+                    width: 280px;
+                    height:250px ;  }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 header">
+            <h1>Welcome to Our Auto Parts Store</h1>
+            <p>Find the best parts for your vehicle</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 product">
+            <div class="product-img exhaust"></div>
+            <h2>High-Performance Exhausts</h2>
+            <p>Upgrade your vehicle with our high-performance exhaust systems. Experience better horsepower, improved torque, and a deeper, more aggressive exhaust note.</p>
+            <button class="btn btn-primary" onclick="alert('Thank you for your interest!')" style="background-color: #0056b3;">Inquire Now</button>
+        </div>
+        <div class="col-md-6 product">
+            <div class="product-img rims"></div>
+            <h2>Custom Rims</h2>
+            <p>Customize your vehicle with our selection of stylish rims. Choose from a variety of designs and finishes to match your vehicle's aesthetic and improve its stance.</p>
+            <button class="btn btn-primary" onclick="alert('Thank you for your interest!')" style="background-color: #0056b3;">Inquire Now</button>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
